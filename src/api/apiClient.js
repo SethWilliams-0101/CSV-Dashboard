@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export default axios.create({
-  baseURL: "https://csv-dashboard-backend.onrender.com" // Render backend URL
+const api = axios.create({
+  baseURL: "https://csv-dashboard-backend-byht.onrender.com" // your Render backend URL
 });
 
 export default api;
